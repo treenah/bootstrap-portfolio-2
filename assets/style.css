@@ -1,0 +1,149 @@
+body {
+    margin:0px;
+   background-image: url("file:///Users/treenah/Desktop/UCB_BOOTCAMP/bootstrap-portfolio-2/bootstrap-portfolio-2/images/tree_bark%20copy.png");
+}
+
+.navbar {
+   border-bottom: #cccccc solid 5px;
+}
+
+.header2d {
+   max-width: 960px;
+}
+
+.navbar-default {
+   background-color: #dbdbdb;
+}
+.navbar-header {
+   background-color: #4aaaa5;
+   height: 80px;
+   text-align: center;
+}
+
+#example-navbar-collapse a {
+   font-size: 16px;
+   position: relative;
+   top: 15px;
+}
+
+h1, h3{
+   font-family: Serif, "Helvetica Neue", Helvetica;
+}
+
+h1 {
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+.link-unstyled {
+ color: white;
+ text-decoration: inherit;
+}
+
+.link-unstyled:link {
+ color: #ffffff;
+ text-decoration: inherit;
+}
+
+.link-unstyled:hover {
+ color: #777777;
+ text-decoration: inherit;
+}
+
+#bio-image {
+   margin-right: 10px;
+   margin-bottom: 5px;
+}
+
+.panel-default>.panel-heading {
+   color: #4aaaa5;
+   background-color: #fff;
+   border-color: #777777;
+}
+
+.profile-pic {
+   float: left;
+   margin-right: 20px;
+   /*border: solid 1px grey;*/
+   box-shadow: 2.5px 2.5px 1.25px #888888;
+   border-radius: 5px;
+}
+
+.panel-default {
+   border: white solid 15px;
+   padding-left: 24px;
+   padding-right: 24px;
+   border: 1px #cccccc solid;
+   clear: right;
+   background: white;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   margin-bottom: 40px;
+
+   box-shadow: 5px 5px 2.5px #888888;
+   border-radius: 5px;
+
+   
+}
+
+.clear {
+   height: 126px; 
+}
+
+.footer {
+   clear: both;
+   height: 96px;
+   background-color: #666666;
+   border-top: 5px solid #4aaaa5;
+   margin-left: -150px;
+   text-align: center;
+}
+
+.footer small {
+   color: #ccc;
+   position: absolute;
+   top: 48px;
+}
+
+.imgHolder {
+   position: relative;
+   margin-bottom: 15px;
+}
+
+.imgHolder h3 {
+   width: 270px;
+   height: 40px;
+   background-color: #4aaaa5;
+   position: absolute;
+   top: 130px;
+   color: white;
+   line-height: 40px;
+   vertical-align: middle;
+}
+
+.btn-primary {
+   color: #fff;
+   background-color: #4aaaa5;
+   border-color: #4aaaa5;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus 
+, .btn-primary:active:focus {
+   background: gray;
+   border-color: gray;
+}
+
+.portfolio li:last-child:nth-child(even) {
+   visibility: hidden;
+}
+
+@media (max-width:648px) {
+   .portfolio li:last-child:nth-child(even) {
+   display: none;
+   }
+
+   .panel {
+       min-width:260px;
+   }
+
+}
